@@ -360,7 +360,7 @@ export function GameRoot(): React.ReactElement {
       break;
     }
     case Page.Achievements: {
-      mainPage = <AchievementsRoot />;
+      mainPage = <DevMenuRoot />;
       break;
     }
     case Page.ThemeBrowser: {
